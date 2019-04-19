@@ -155,8 +155,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "Weibo"
-      icon: ""
+    - label: "新浪微博"
+      icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/lifeym"
 
 
