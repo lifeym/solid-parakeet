@@ -35,3 +35,17 @@ $type-size-8 : 0.625em;  // ~10px
         text-indent: 4em;
     }
 }*/
+
+.btn {
+  &--weibo {
+    $color: rgba(0,183,234,1);
+    @include yiq-contrasted($color);
+    &:visited {
+      @include yiq-contrasted($color);
+    }
+    
+    &:hover {
+      @include yiq-contrasted(mix(#000, $color, 20%));
+    }
+  }
+}

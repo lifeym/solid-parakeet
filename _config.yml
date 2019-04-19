@@ -19,15 +19,15 @@ locale                   : "zh-CN"
 title                    : "Little Felicity"
 title_separator          : "-"
 name                     : "Leonardo"
-description              : "Leonardo's blog"
-url                      : "https://lifeym.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Leonardo's little felicity"
+url                      : "https://lifeym.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lifeym/lifeym.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 600
+words_per_minute         : 500
 comments:
   provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -107,17 +107,17 @@ analytics:
 # Site Author
 author:
   name             : "Leonardo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PMP 古典音乐爱好者 心理学爱好者 程序员 梦想家 如果你对我的文章感兴趣，请给我发送邮件"
+  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "PMP 古典音乐爱好者 心理学爱好者 程序员 梦想家"
   location         : "上海"
   email            : "leonardo_yu@hotmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      #url: mailto:leonardo_yu@hotmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://lifeym.xyz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -130,6 +130,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "微博"
+      icon: ""
+      url: "https://weibo.com/lifeym"
 
 # Site Footer
 footer:
@@ -152,6 +155,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Weibo"
+      icon: ""
+      url: "https://weibo.com/lifeym"
 
 
 # Reading Files
