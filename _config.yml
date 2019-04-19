@@ -131,7 +131,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "微博"
-      icon: ""
+      icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/lifeym"
 
 # Site Footer
