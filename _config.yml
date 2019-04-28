@@ -134,7 +134,7 @@ author:
       icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/lifeym"
     - label: "简书"
-      icon: "fab fa-fw fa-book"
+      icon: "fab fa-fw fa-link"
       url: "https://www.jianshu.com/u/633d7716a6ea"
 
 # Site Footer
@@ -162,7 +162,7 @@ footer:
       icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/lifeym"
     - label: "简书"
-      icon: "fab fa-fw fa-book"
+      icon: "fab fa-fw fa-link"
       url: "https://www.jianshu.com/u/633d7716a6ea"
 
 
