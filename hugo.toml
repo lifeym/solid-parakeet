@@ -1,0 +1,88 @@
+baseURL = "https://www.lifeym.xyz"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Life = Little Felicity"
+theme = "gokarna" # https://themes.gohugo.io/themes/gokarna/
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/lifeym"
+    weight = 3
+
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
+
+  [[menu.main]]
+    identifier = "mail"
+    url = "mailto:leonardo_yu@hotmail.com"
+    weight = 4
+    pre = "<span data-feather='mail'></span>"
+
+# https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#basic-configuration
+# https://gokarna-hugo.netlify.app/posts/theme-documentation-advanced/#content-types
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "/images/bio-photo.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = ""
+
+  # Description to display on homepage
+  description = ""
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Display "back to top" button on posts
+  ShowBackToTopButton = true
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo", "lifeym"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  showPostsOnHomePage = "recent"
+
+  # Footer text
+  footer = "Leonardo Yu"
+  dateFormat = "2006-01-02"
+  togglePreviousAndNextButtons = "true"
+
+  socialIcons = [
+    {name = "github", url = "https://github.com/lifeym"},
+    {name = "email", url = "mailto:leonardo_yu@hotmail.com"},
+  ]
